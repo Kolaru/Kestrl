@@ -1,0 +1,87 @@
+<Actor ID="{id}" Data="commander_{faction}" PlayerIndex="{owner_id}">
+    <ParentOffset>0,0,0</ParentOffset>
+    <Timer>0</Timer>
+    <WaitToSpawn>false</WaitToSpawn>
+    <Parent ID="-1" />
+    <ShowHud>true</ShowHud>
+    <SimSpeed>1</SimSpeed>
+    <ColdSpeed>1</ColdSpeed>
+    <Sprites>
+        <AnimatedSprite Animation="idle" Frame="0" LoopCounter="0" Paused="false" Complete="false" Angle="0" FrameTimer="0" Data="commander_commoners_sprite0">
+        <RemoveFlag>false</RemoveFlag>
+        </AnimatedSprite>
+    </Sprites>
+    <WorldPosition>{x},{h},{y}</WorldPosition>
+    <Velocity>0,0,0</Velocity>
+    <Angle>0</Angle>
+    <DialogComponent>
+        <NPCDialog />
+        <CurrentDialog>0</CurrentDialog>
+        <InteractionRange>2</InteractionRange>
+    </DialogComponent>
+    <Events />
+    <Targetable>true</Targetable>
+    <Invincible>false</Invincible>
+    <RemoveTimer>0</RemoveTimer>
+    <Health>0</Health>
+    <HealTimer>10</HealTimer>
+    <ForceBehaviorUpdateTimer>0</ForceBehaviorUpdateTimer>
+    <VisibilityRange>6</VisibilityRange>
+    <IgnoreRally>false</IgnoreRally>
+    <Sellable>true</Sellable>
+    <DelayedCharge>false</DelayedCharge>
+    <WasFree>false</WasFree>
+    <SellProgress>0</SellProgress>
+    <InvincibleTimer>0</InvincibleTimer>
+    <CanRecruit>false</CanRecruit>
+    <IsObjective>false</IsObjective>
+    <Behaviors>
+        <Commander>
+        <SpeedMultiplier>1</SpeedMultiplier>
+        <DesiredPosition>0,0,0</DesiredPosition>
+        <Path />
+        <Target ID="0" />
+        <Weapon ID="0" />
+        </Commander>
+    </Behaviors>
+    <Weapons />
+    <Effects />
+    <BurrowCause>INITIAL_SPAWN</BurrowCause>
+    <Postures>
+        <Posture xsi:nil="true" />
+        <Posture xsi:nil="true" />
+        <Posture xsi:nil="true" />
+        <Posture>
+        <Type>BURROW_HOME</Type>
+        <State>Inactive</State>
+        <Timer>0</Timer>
+        <Data>
+            <EntryTime>1.5</EntryTime>
+            <ExitTime>0.5</ExitTime>
+            <AllowEntryInterrupt>true</AllowEntryInterrupt>
+            <AllowExitInterrupt>false</AllowExitInterrupt>
+            <StartsActive>false</StartsActive>
+        </Data>
+        </Posture>
+        <Posture xsi:nil="true" />
+    </Postures>
+    <RallyPosition>0,0,0</RallyPosition>
+    <RallyPositionChanged>false</RallyPositionChanged>
+    <RallyActive>false</RallyActive>
+    <RallyActiveTimer>0</RallyActiveTimer>
+    <VisibilityTeam>0</VisibilityTeam>
+    <Thrust>0,0,0</Thrust>
+    <Cargo>0</Cargo>
+    <HomePosition>0,0</HomePosition>
+    <BurrowHomeTimer>0</BurrowHomeTimer>
+    <Climbing>false</Climbing>
+    <Garrisoned>false</Garrisoned>
+    <Reserved>0,0</Reserved>
+    <MaxHealth>0</MaxHealth>
+    <XP>0</XP>
+    <Level>1</Level>
+    <IgnoreFlightPhysics>false</IgnoreFlightPhysics>
+    <ThrustMultiplier>1</ThrustMultiplier>
+    <FreezeMovement>false</FreezeMovement>
+    <VoiceOver xsi:type="ActorVOCommander" />
+</Actor>

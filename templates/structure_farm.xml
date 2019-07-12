@@ -1,0 +1,65 @@
+<Structure ID="{id}" Data="structure_farm" PlayerIndex="{owner_id}">
+    <ParentOffset>0,0,0</ParentOffset>
+    <Timer>0</Timer>
+    <WaitToSpawn>false</WaitToSpawn>
+    <Parent ID="-1" />
+    <ShowHud>true</ShowHud>
+    <SimSpeed>1</SimSpeed>
+    <ColdSpeed>1</ColdSpeed>
+    <Sprites />
+    <WorldPosition>{x},{h},{y}</WorldPosition>
+    <Velocity>0,0,0</Velocity>
+    <Angle>0</Angle>
+    <Events />
+    <Targetable>true</Targetable>
+    <Invincible>false</Invincible>
+    <RemoveTimer>0</RemoveTimer>
+    <Health>0</Health>
+    <HealTimer>10</HealTimer>
+    <ForceBehaviorUpdateTimer>0</ForceBehaviorUpdateTimer>
+    <VisibilityRange>4</VisibilityRange>
+    <IgnoreRally>false</IgnoreRally>
+    <Sellable>true</Sellable>
+    <DelayedCharge>false</DelayedCharge>
+    <WasFree>false</WasFree>
+    <SellProgress>0</SellProgress>
+    <InvincibleTimer>0</InvincibleTimer>
+    <CanRecruit>false</CanRecruit>
+    <IsObjective>false</IsObjective>
+    <Behaviors>
+        <Production>
+        <SpeedMultiplier>1</SpeedMultiplier>
+        <DesiredPosition>0,0,0</DesiredPosition>
+        <Path />
+        <Target ID="0" />
+        <Weapon ID="0" />
+        <IsProducing>false</IsProducing>
+        <ProductionProgress>0</ProductionProgress>
+        <Produced />
+        </Production>
+    </Behaviors>
+    <Weapons />
+    <Effects />
+    <BurrowCause>INITIAL_SPAWN</BurrowCause>
+    <Postures>
+        <Posture xsi:nil="true" />
+        <Posture xsi:nil="true" />
+        <Posture xsi:nil="true" />
+        <Posture xsi:nil="true" />
+        <Posture xsi:nil="true" />
+    </Postures>
+    <RallyPosition>0,0,0</RallyPosition>
+    <RallyPositionChanged>false</RallyPositionChanged>
+    <RallyActive>false</RallyActive>
+    <RallyActiveTimer>0</RallyActiveTimer>
+    <VisibilityTeam>0</VisibilityTeam>
+    <BuildProgress>30</BuildProgress>
+    <ProduceProgress>0</ProduceProgress>
+    <UpgradeLevel>0</UpgradeLevel>
+    <Message />
+    <Portal>0</Portal>
+    <PortalDestination>0,0</PortalDestination>
+    <Open>false</Open>
+    <BuildCost>60</BuildCost>
+    <SpawnOffset>0,0</SpawnOffset>
+</Structure>

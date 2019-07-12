@@ -1,0 +1,26 @@
+<Mineral ID="{id}" Data="windmill">
+    <ParentOffset>0,0,0</ParentOffset>
+    <Timer>0</Timer>
+    <WaitToSpawn>false</WaitToSpawn>
+    <Parent ID="-1" />
+    <ShowHud>true</ShowHud>
+    <SimSpeed>1</SimSpeed>
+    <ColdSpeed>1</ColdSpeed>
+    <Sprites>
+        <AnimatedSprite Animation="idle" Frame="0" LoopCounter="0" Paused="false" Complete="false" Angle="0" FrameTimer="0" Data="windmill_sprite0">
+        <RemoveFlag>false</RemoveFlag>
+        </AnimatedSprite>
+        <AnimatedSprite Animation="" Frame="0" LoopCounter="0" Paused="false" Complete="false" Angle="0" FrameTimer="0" Data="windmill_sprite1">
+        <RemoveFlag>false</RemoveFlag>
+        </AnimatedSprite>
+    </Sprites>
+    <WorldPosition>{x},{h},{y}</WorldPosition>
+    <Velocity>0,0,0</Velocity>
+    <Angle>0</Angle>
+    <Events />
+    <Targetable>true</Targetable>
+    <Invincible>false</Invincible>
+    <Minerals>0</Minerals>
+    <GhostParent ID="0" />
+    <GridPosition>{i},{j}</GridPosition>
+</Mineral>

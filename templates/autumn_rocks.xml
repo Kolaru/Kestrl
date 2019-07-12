@@ -1,0 +1,21 @@
+<Decor ID="{id}" Data="autumn_rocks" PlayerIndex="0">
+    <ParentOffset>0,0,0</ParentOffset>
+    <Timer>0</Timer>
+    <WaitToSpawn>false</WaitToSpawn>
+    <Parent ID="-1" />
+    <ShowHud>true</ShowHud>
+    <SimSpeed>1</SimSpeed>
+    <ColdSpeed>1</ColdSpeed>
+    <Sprites>
+        <AnimatedSprite Animation="" Frame="0" LoopCounter="0" Paused="false" Complete="false" Angle="0" FrameTimer="0" Data="autumn_rocks_sprite1">
+        <RemoveFlag>false</RemoveFlag>
+        </AnimatedSprite>
+    </Sprites>
+    <WorldPosition>{x},{h},{y}</WorldPosition>
+    <Velocity>0,0,0</Velocity>
+    <Angle>0</Angle>
+    <Events />
+    <Targetable>true</Targetable>
+    <Invincible>false</Invincible>
+    <Scale>1</Scale>
+</Decor>

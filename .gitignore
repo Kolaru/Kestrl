@@ -1,0 +1,3 @@
+*.png
+maps/*
+__pycache__

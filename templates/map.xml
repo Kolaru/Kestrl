@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Session xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DesyncCheckInterval>0</DesyncCheckInterval>
+  <MatchTime>0</MatchTime>
+  <WorldSeed />
+  <SessionSeed>0</SessionSeed>
+  <Random />
+  <PublishedId>0</PublishedId>
+  <Description>
+    <Filename>{map_name}</Filename>
+    <Name />
+    <Description />
+    <MissionType>PVP</MissionType>
+    <Id>96</Id>
+    <Seed>0</Seed>
+    <Source>Random</Source>
+    <TeamConfig>FFA_2P</TeamConfig>
+    <DeckSize>6</DeckSize>
+    <Script>CustomMatch</Script>
+    <SaveKey xsi:nil="true" />
+    <HeroicKey xsi:nil="true" />
+    <HasHiddenUnits>false</HasHiddenUnits>
+    <Players />
+  </Description>
+  <Rules>
+    <HasCheated>false</HasCheated>
+  </Rules>
+  <Script xsi:type="CustomMatch">
+    <Started>false</Started>
+    <ShowObjectives>true</ShowObjectives>
+    <ObjectivesBounce>false</ObjectivesBounce>
+    <ShowRallyHelp>false</ShowRallyHelp>
+    <ShowGroupHelp>false</ShowGroupHelp>
+    <BurrowingAllowed>true</BurrowingAllowed>
+    <BuildingAllowed>true</BuildingAllowed>
+    <BuildFarmsAllowed>true</BuildFarmsAllowed>
+    <SellingAllowed>true</SellingAllowed>
+    <RallyingAllowed>true</RallyingAllowed>
+    <LevelUpAllowed>true</LevelUpAllowed>
+    <AutoHealAllowed>true</AutoHealAllowed>
+    <RespawnTime>6</RespawnTime>
+    <VisibilityModifier>0</VisibilityModifier>
+    <ExplorationDisabled>false</ExplorationDisabled>
+    <WaterHeals>false</WaterHeals>
+    <OutsideTerritoryGroundDamage>false</OutsideTerritoryGroundDamage>
+    <OutsideTerritoryDamageRate>1</OutsideTerritoryDamageRate>
+    <ColdKillTime>6</ColdKillTime>
+    <HeavyWind>false</HeavyWind>
+    <HeavyWindMin>0.60009765625</HeavyWindMin>
+    <HeavyWindRange>0.5</HeavyWindRange>
+    <Cold>false</Cold>
+    <ColdSlowdownMax>0.800048828125</ColdSlowdownMax>
+    <ColdSlowdown>0.026611328125</ColdSlowdown>
+    <EndGameWhenPlayerDies>true</EndGameWhenPlayerDies>
+    <PlayMusicOnStart>true</PlayMusicOnStart>
+    <ButtonHintAction>SellStructure</ButtonHintAction>
+    <ObjectiveHUDTimer>0</ObjectiveHUDTimer>
+    <ObjectiveHUDOverrideStarving>true</ObjectiveHUDOverrideStarving>
+    <HighlightFarms>false</HighlightFarms>
+    <HighlightBuildableTerritory>false</HighlightBuildableTerritory>
+    <Rules />
+    <ObjectivesPrimary />
+    <ObjectivesSecondary />
+    <ObjectivesHidden />
+    <StarvationEnabled>true</StarvationEnabled>
+    <Starvation>
+      <item>
+        <int>0</int>
+        <StarvationProgress>
+          <IsStarving>false</IsStarving>
+          <Progress>0</Progress>
+        </StarvationProgress>
+      </item>
+      <item>
+        <int>1</int>
+        <StarvationProgress>
+          <IsStarving>false</IsStarving>
+          <Progress>0</Progress>
+        </StarvationProgress>
+      </item>
+      <item>
+        <int>-2</int>
+        <StarvationProgress>
+          <IsStarving>false</IsStarving>
+          <Progress>0</Progress>
+        </StarvationProgress>
+      </item>
+    </Starvation>
+    <LastTimerId>0</LastTimerId>
+    <Timers />
+  </Script>
+  <World>
+    <WorldType>worldgen_themonasticgardens</WorldType>
+    <Teams>
+      <item>
+        <int>0</int>
+        <Team>
+          <GhostStructures />
+          <TeamIndex>0</TeamIndex>
+        </Team>
+      </item>
+      <item>
+        <int>1</int>
+        <Team>
+          <GhostStructures />
+          <TeamIndex>1</TeamIndex>
+        </Team>
+      </item>
+      <item>
+        <int>-2</int>
+        <Team>
+          <GhostStructures />
+          <TeamIndex>-2</TeamIndex>
+        </Team>
+      </item>
+    </Teams>
+    <Factions>
+      <item>
+        <int>0</int>
+        <Faction>
+          <Identity Name="" Slot="0" Id="0" />
+          <PlayerControlled>false</PlayerControlled>
+          <Team>0</Team>
+          <Active>false</Active>
+          <Camera ID="0" />
+          <InfiniteFood>false</InfiniteFood>
+          <UseVisibility>true</UseVisibility>
+          <Food>0</Food>
+          <Army>
+            <AttackPosition>0,0,0</AttackPosition>
+            <RallyActive>false</RallyActive>
+            <RallyOrderComplete>false</RallyOrderComplete>
+            <PlayerIndex>0</PlayerIndex>
+            <BuildQueue>
+              <Queue />
+            </BuildQueue>
+          </Army>
+          <Data />
+          <Personality />
+          <Deck>
+            <HideInEditor>false</HideInEditor>
+            <Cards />
+          </Deck>
+          <DeckItems />
+        </Faction>
+      </item>
+      <item>
+        <int>1</int>
+        <Faction>
+          <Identity Name="" Slot="0" Id="0" />
+          <PlayerControlled>false</PlayerControlled>
+          <Team>0</Team>
+          <Active>false</Active>
+          <Camera ID="0" />
+          <InfiniteFood>false</InfiniteFood>
+          <UseVisibility>true</UseVisibility>
+          <Food>0</Food>
+          <Army>
+            <AttackPosition>0,0,0</AttackPosition>
+            <RallyActive>false</RallyActive>
+            <RallyOrderComplete>false</RallyOrderComplete>
+            <PlayerIndex>1</PlayerIndex>
+            <BuildQueue>
+              <Queue />
+            </BuildQueue>
+          </Army>
+          <Data />
+          <Personality />
+          <Deck>
+            <HideInEditor>false</HideInEditor>
+            <Cards />
+          </Deck>
+          <DeckItems />
+        </Faction>
+      </item>
+      <item>
+        <int>-2</int>
+        <Faction>
+          <Identity Name="" Slot="0" Id="0" />
+          <PlayerControlled>false</PlayerControlled>
+          <Team>-2</Team>
+          <Active>true</Active>
+          <Camera ID="0" />
+          <InfiniteFood>false</InfiniteFood>
+          <UseVisibility>true</UseVisibility>
+          <Food>0</Food>
+          <Army>
+            <AttackPosition>0,0,0</AttackPosition>
+            <RallyActive>false</RallyActive>
+            <RallyOrderComplete>false</RallyOrderComplete>
+            <PlayerIndex>-2</PlayerIndex>
+            <BuildQueue>
+              <Queue />
+            </BuildQueue>
+          </Army>
+          <Data>neutral</Data>
+          <Personality />
+          <Deck>
+            <HideInEditor>false</HideInEditor>
+            <Cards />
+          </Deck>
+          <DeckItems />
+        </Faction>
+      </item>
+    </Factions>
+    <Weather>
+      <Data>daytime</Data>
+      <WindAngle>2.515380859375</WindAngle>
+    </Weather>
+    <Scene>
+      <TimeScale>1</TimeScale>
+    </Scene>
+    <Dimensions>{dimx},{dimy}</Dimensions>
+    <PlayArea>
+      <X>{instartx}</X>
+      <Y>{instarty}</Y>
+      <Width>{padded_insizex}</Width>
+      <Height>{padded_insizey}</Height>
+      <Location>
+        <X>{instartx}</X>
+        <Y>{instarty}</Y>
+      </Location>
+      <Size>
+        <X>{padded_insizex}</X>
+        <Y>{padded_insizey}</Y>
+      </Size>
+    </PlayArea>
+    <SpawnPositions>
+      <item>
+        <int>0</int>
+        <Point2>{starting_mill_0}</Point2>
+      </item>
+      <item>
+        <int>1</int>
+        <Point2>{starting_mill_1}</Point2>
+      </item>
+    </SpawnPositions>
+    <BasePositions>
+      <Point2>{starting_mill_0}</Point2>
+      <Point2>{starting_mill_1}</Point2>
+    </BasePositions>
+    <ElevationLayers>
+      <Layer>layer_undergroundgrass</Layer>
+      <Layer>layer_undergroundgrass</Layer>
+      <Layer>layer_undergroundgrass</Layer>
+      <Layer>layer_undergroundgrass</Layer>
+    </ElevationLayers>
+    <TerrainShoreline>autumn_watershore</TerrainShoreline>
+    <TerrainShallowWater>autumn_water1</TerrainShallowWater>
+    <TerrainMediumWater>autumn_water2</TerrainMediumWater>
+    <TerrainDeepWater>autumn_water3</TerrainDeepWater>
+    <TerrainRamp>autumn_layer_ramp</TerrainRamp>
+    <TerraformFloor>grass</TerraformFloor>
+    <TerraformCliff>grass_cliff</TerraformCliff>
+    <TerraformRamp>grass_ramp</TerraformRamp>
+    <TerrainDictionary>
+      <item key="0" value="" />
+      <item key="1" value="grass" />
+      <item key="2" value="water" />
+      <item key="3" value="grass_cliff" />
+      <item key="4" value="grass_ramp" />
+    </TerrainDictionary>
+    <LoadElevationFromTerrain>true</LoadElevationFromTerrain>
+    <LastEntityId>{last_entity_id}</LastEntityId>
+    <_terrain>{terrains}</_terrain>
+    <_elevation>{elevations}</_elevation>
+    <Entities />
+    <Unspawned>
+        {entities}
+    </Unspawned>
+  </World>
+</Session>
